@@ -208,7 +208,7 @@
                     }
                     
                     // Scoring and optional victory message
-                    if (score > 79)
+                    if (score > 80)
                     {
                         $("#totalScore").html(`Total Score: ${score}`).css("color", "RGB(0, 255, 0)");
                         $("#passingGrade").html(`<b>Congratulations on your mastery<p>of basic US geography!</b>`);
